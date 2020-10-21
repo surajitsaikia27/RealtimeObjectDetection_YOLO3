@@ -1,4 +1,4 @@
-# RealtimeObjectDetection_YOLOv3: Creating a Realtime custom object Detector by training the YOLOv3 (https://pjreddie.com/darknet/yolo/) using images from Google Open Image Dataset
+# RealtimeObjectDetection_YOLOv3: Creating a Realtime custom object Detector using Google Open Image Dataset
 
 Using this Repository you can build an object detector that can detect objects in real time based on webcam feed.
 This repo works with TensorFlow 2.3 and Keras 2.4.
