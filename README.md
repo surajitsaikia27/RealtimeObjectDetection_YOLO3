@@ -1,10 +1,11 @@
-# TrainYourOwnYOLO: Building a Custom Object Detector from Scratch [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+# RealtimeObjectDetection_YOLOv3: Creating a Realtime custom object Detector by training the YOLOv3 (https://pjreddie.com/darknet/yolo/) using images from Google Open Image Dataset
 
-This repo let's you train a custom image detector using the state-of-the-art [YOLOv3](https://pjreddie.com/darknet/yolo/) computer vision algorithm. For a short write up check out this [medium post](https://medium.com/@muehle/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2). This repo works with TensorFlow 2.3 and Keras 2.4.
+Using this Repository you can build an object detector that can detect objects in real time based on webcam feed.
+This repo works with TensorFlow 2.3 and Keras 2.4.
 
-### Pipeline Overview
+### Steps to create the Realtime object detector
 
-To build and test your YOLO object detection algorithm follow the below steps:
+At First we need to download the dataset for training. Please open the .pynb  and follow the steps to dowload the dataset and create annotations.
 
  1. [Image Annotation](/1_Image_Annotation/)
 	 - Install Microsoft's Visual Object Tagging Tool (VoTT)
