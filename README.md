@@ -74,6 +74,6 @@ python /Deployment/videoRT.py
 ```
 
  
-This repository is modified from the following repository [github repo](https://github.com/AntonMu/TrainYourOwnYOLO)!
+This repository  is modified from the following repository [github repo](https://github.com/AntonMu/TrainYourOwnYOLO)!
  
 
