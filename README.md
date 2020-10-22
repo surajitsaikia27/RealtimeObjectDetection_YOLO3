@@ -1,7 +1,8 @@
 # RealtimeObjectDetection_YOLOv3: Creating a Realtime custom object Detector
 
 Using this Repository you can build an object detector that can detect objects in real time based on webcam feed.
-To train the detector we will be using Google open Image Dataset (https://opensource.google/projects/open-images-dataset)
+To train the detector we will be using Google open Image Dataset (https://opensource.google/projects/open-images-dataset).
+
 This repository has been tested using TensorFlow > 2 and Cuda 11.
 
 ### Download the Dataset for training
