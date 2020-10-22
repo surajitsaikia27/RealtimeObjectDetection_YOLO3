@@ -53,7 +53,8 @@ To speed up training, it is recommended to use a **GPU with CUDA** support.
 
 ## Troubleshooting
 If you encounter a `FileNotFoundError`, `Module not found` or similar error, make sure that you did not change the folder structure. Your directory structure **must** look exactly like this: 
-    ```
+   
+   ```
     TrainYourOwnYOLO
     └─── Training
     └─── Deployment
