@@ -32,9 +32,6 @@ cd RealtimeObjectDetection_YOLOv3/
 pip install -r requirements.txt
 ```
 
-## Copy the dataset
-Copy the Training images and the trainannotation.txt file to the following path:
-./Data/Source_Images/OIDsample/train
 
 
 ## Start Training
@@ -48,8 +45,7 @@ python /Training/TrainerOID.py
  
 **To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
 
-Each `TrainerOID.py` file has various command line options that help tweak performance and change things such as input and output directories. All scripts are initialized with good default values that help accomplish all tasks as long as the original folder structure is preserved.
-
+The TrainerOID.py file has consist of various command-line options which you can modify in order to change epochs, learning rate, batch size etc. 
 To speed up training, it is recommended to use a **GPU with CUDA** support. 
 
 ## Folder Structure   
