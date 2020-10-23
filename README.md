@@ -21,9 +21,8 @@ Please refer to this link to know how to download the dataset and annotate it.
 ### Installation
 
 
-Clone this repo with:
+Clone or download this repo with:
 ```
-Download or clone this repository
 cd RealtimeObjectDetection_YOLOv3/
 ```
 
@@ -48,14 +47,7 @@ python /Training/TrainerOID.py
 The TrainerOID.py file has consist of various command-line options which you can modify in order to change epochs, learning rate, batch size etc. 
 To speed up training, it is recommended to use a **GPU with CUDA** support. 
 
-## Folder Structure   
-   ```
-   TrainYourOwnYOLO
-    └─── Training
-    └─── Deployment
-    └─── Data
-    └─── Utils
-    ```
+
 ## Testing
 Once you have trained the model, you will be needing a webcam to see how well the objects are detected.
 The trained model will be saved as trained_weights_ODI.h5 in Model_weights folder.
@@ -63,6 +55,7 @@ The trained model will be saved as trained_weights_ODI.h5 in Model_weights folde
 To test the model, please type the following command from the root directory.
 
 
+```
 python /Deployment/videoRT.py
 
 ```
