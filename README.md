@@ -48,7 +48,7 @@ python /Training/TrainerOID.py
  
 **To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
 
-Each `OIDtrain.py` file has various command line options that help tweak performance and change things such as input and output directories. All scripts are initialized with good default values that help accomplish all tasks as long as the original folder structure is preserved.
+Each `TrainerOID.py` file has various command line options that help tweak performance and change things such as input and output directories. All scripts are initialized with good default values that help accomplish all tasks as long as the original folder structure is preserved.
 
 To speed up training, it is recommended to use a **GPU with CUDA** support. 
 
@@ -67,7 +67,7 @@ The trained model will be saved as trained_weights_ODI.h5 in Model_weights folde
 To test the model, please type the following command from the root directory.
 
 
-python /Training/TrainerOID.py
+python /Deployment/videoRT.py
 
 ```
 
