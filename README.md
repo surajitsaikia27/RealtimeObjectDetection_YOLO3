@@ -8,7 +8,8 @@ This repository has been tested using TensorFlow > 2 and Cuda 11.
 ### Download the Dataset for training
 
 At First we need to download the dataset for training. 
-Please refer to this link to know how to download the dataset and annotate it.
+Please refer to the following link to know how to download the dataset and annotate it.
+https://surjeetsaikia.medium.com/build-your-realtime-custom-object-detector-using-yolov3-f61af825153f
 
 
 ## Repo structure
