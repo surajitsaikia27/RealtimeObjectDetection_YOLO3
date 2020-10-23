@@ -39,7 +39,7 @@ pip install -r requirements.txt
 To train your model, please type the following command from the root directory.
 
 ```
-python /Training/TrainerOID.py
+python ./Training/TrainerOID.py
 
 ```
  
@@ -57,7 +57,7 @@ To test the model, please type the following command from the root directory.
 
 
 ```
-python /Deployment/videoRT.py
+python ./Deployment/videoRT.py
 
 ```
 
