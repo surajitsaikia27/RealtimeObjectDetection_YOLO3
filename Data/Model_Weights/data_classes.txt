@@ -1,3 +1,5 @@
-Car
-Human face
 Person
+Human face
+Car
+Mobile phone
+Laptop
