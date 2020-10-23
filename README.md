@@ -52,9 +52,7 @@ Each `OIDtrain.py` file has various command line options that help tweak perform
 
 To speed up training, it is recommended to use a **GPU with CUDA** support. 
 
-## Troubleshooting
-If you encounter a `FileNotFoundError`, `Module not found` or similar error, make sure that you did not change the folder structure. Your directory structure **must** look exactly like this: 
-   
+## Folder Structure   
    ```
     TrainYourOwnYOLO
     └─── Training
@@ -66,6 +64,7 @@ If you encounter a `FileNotFoundError`, `Module not found` or similar error, mak
 
 ## Testing
 Once you have trained the model, you will be needing a webcam to see how well the objects are detected.
+The trained model will be saved as trained_weights_ODI.h5 in Model_weights folder.
 
 To test the model, please type the following command from the root directory.
 
