@@ -54,22 +54,20 @@ To speed up training, it is recommended to use a **GPU with CUDA** support.
 
 ## Folder Structure   
    ```
-    TrainYourOwnYOLO
+   TrainYourOwnYOLO
     └─── Training
     └─── Deployment
     └─── Data
     └─── Utils
     ```
-    Note: Please specify the correct paths related to the training images
-
 ## Testing
 Once you have trained the model, you will be needing a webcam to see how well the objects are detected.
 The trained model will be saved as trained_weights_ODI.h5 in Model_weights folder.
 
 To test the model, please type the following command from the root directory.
 
-```
-python /Deployment/videoRT.py
+
+python /Training/TrainerOID.py
 
 ```
 
