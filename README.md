@@ -42,7 +42,7 @@ Copy the Training images and the trainannotation.txt file to the following path:
 To train your model, please type the following command from the root directory.
 
 ```
-python /Training/OIDtrain.py
+python /Training/TrainerOID.py
 
 ```
  
