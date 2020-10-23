@@ -32,8 +32,8 @@ data_folder = os.path.join(get_parent_dir(n=1), "Data")
 
 model_folder = os.path.join(data_folder, "Model_Weights")
 
-model_weights = os.path.join(model_folder, "yolo.h5")
-model_classes = os.path.join(model_folder, "data_coco.txt")
+model_weights = os.path.join(model_folder, "trained_weights_ODI.h5")
+model_classes = os.path.join(model_folder, "data_classes.txt")
 class_list=model_classes
 print(class_list,len(class_list))
 anchors_path = os.path.join(src_path, "keras_yolo3", "model_data", "yolo_anchors.txt")
