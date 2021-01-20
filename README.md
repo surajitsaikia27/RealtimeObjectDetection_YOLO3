@@ -1,4 +1,4 @@
-# RealtimeObjectDetection_YOLOv3: Creating a Realtime custom object Detector
+# RoboVec:2.0
 
 Using this Repository you can build an object detector that can detect objects in real time based on webcam feed.
 To train the detector we will be using Google open Image Dataset (https://opensource.google/projects/open-images-dataset).
