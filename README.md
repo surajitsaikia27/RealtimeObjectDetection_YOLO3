@@ -65,6 +65,11 @@ python ./Deployment/videoRT.py
 
 ```
 ## Test Vector
+Before running the module, you need to authenticate the vector robot. To authenticate with the robot, type the following into the Terminal window.
+```
+python3 -m anki_vector.configure
+```
+Please note that the robot and your computer should be connected to the same network. Now, you will be asked to enter your robot’s name, ip address and serial number, which you can find in the robot itself. Also, You will be asked for your Anki login and password which you used to set up your Vector.
 If the installation is successfull, then Vector can be brought to life and he can obey your voice commands.
 
 ```
