@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## RoboVector
 
-You can use the [editor on GitHub](https://github.com/surajitsaikia27/RoboVec/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this project, a home robot known as Vector is programmed to do few tasks based on voiced commands. It is uses deep learning, computer vision and speech recognision, and is programmed using the Vector SDK. However, in case if you dont have a Vector, then using this repository you can create your own custom object detector which can be tested using webcam.
 
 ### Markdown
 
