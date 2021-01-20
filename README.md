@@ -1,30 +1,45 @@
 # RoboVec:2.0
 
+In this project, a home robot known as Vector is programmed to do few tasks based on voiced commands. It is uses deep learning, computer vision and speech recognision, and is programmed using the Vector SDK. However, in case if you dont have a Vector, then using this repository you can create your own custom object detector which can be tested using webcam.
+
+The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation and etc. You can design your own programs to make this robot pet imbibed with AI capabilities. Here, in this project, I have trained and used an real time object detector which lets the robot to recognise objects in its surrounding environment. Moreover, in this module, instruction are provided how to create your own customize object detector. In case, if you want train our own object detector then follow the instructions below or else it can be skipped since the pre-trained model can be downloaded.
+
+### Train the object detector in custom dataset
+Please refer to the following link to know how to download the dataset and annotate it.
+https://surjeetsaikia.medium.com/build-your-realtime-custom-object-detector-using-yolov3-f61af825153f
+
+## Start Training
+
+To train your model, please type the following command from the root directory after downloading the dataset.
+
+```
+python ./Training/TrainerOID.py
+
+```
+The TrainerOID.py file has consist of various command-line options which you can modify in order to change epochs, learning rate, batch size etc. 
+To speed up training, it is recommended to use a **GPU with CUDA** support. 
+
+
+
+Before running this module, install the vector SDK by following the information in this page:
 Using this Repository you can build an object detector that can detect objects in real time based on webcam feed.
 To train the detector we will be using Google open Image Dataset (https://opensource.google/projects/open-images-dataset).
 
 This repository has been tested using TensorFlow > 2 and Cuda 11.
-
-### Download the Dataset for training
-
-At First we need to download the dataset for training. 
-Please refer to the following link to know how to download the dataset and annotate it.
-https://surjeetsaikia.medium.com/build-your-realtime-custom-object-detector-using-yolov3-f61af825153f
-
-
 ## Repo structure
-+ [`Training`](/Training/): Scripts to train the YOLOv3 model
-+ [`Deployment`](/Deployment/): Script to run the trained YOLO detector using webcam
++ [`Training`](/Training/): Scripts to train the Object detector. However, it can be skipped if you want to test with a trained detector
++ [`Deployment`](/Deployment/): Script to test the robot.
 + [`Data`](/Data/): Input Data, Output Data, Model Weights and Results
 + [`Utils`](/Utils/): Utility scripts used by main scripts
++ [`vector-python-sdk-master`](vector-python-sdk-master): This repository contains the SDK files of the vector robot. However, it is not provided due to its larger size. Please follow the instructions below in order to install the SDK. 
 
-
+**To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
 ### Installation
 
 
 Clone or download this repo with:
 ```
-cd RealtimeObjectDetection_YOLOv3/
+cd RoboVec/
 ```
 
 #### Install dependencies [Windows, Mac or Linux]
@@ -32,24 +47,13 @@ cd RealtimeObjectDetection_YOLOv3/
 pip install -r requirements.txt
 ```
 
+#### Installing Vector SDK
+Install the vector SDK by following the information in this page:
+(https://developer.anki.com/vector/docs/index.html).
 
 
-## Start Training
 
-To train your model, please type the following command from the root directory.
-
-```
-python ./Training/TrainerOID.py
-
-```
- 
-**To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
-
-The TrainerOID.py file has consist of various command-line options which you can modify in order to change epochs, learning rate, batch size etc. 
-To speed up training, it is recommended to use a **GPU with CUDA** support. 
-
-
-## Testing
+## Testing (if you have trained the object detector)
 Once you have trained the model, you will be needing a webcam to see how well the objects are detected.
 The trained model will be saved as trained_weights_ODI.h5 in Model_weights folder.
 
@@ -60,10 +64,18 @@ To test the model, please type the following command from the root directory.
 python ./Deployment/videoRT.py
 
 ```
+## Test Vector
+If the installation is successfull, then Vector can be brought to life and he can obey your voice commands.
 
- 
-This repository  is modified from the following repository [github repo](https://github.com/AntonMu/TrainYourOwnYOLO)!
- 
+```
+python ./Deployment/MultifunctionVec.py
+
+```
+
+
+### The Vector Class
+The class contains the main functionalities that drives vector into action. However, you can change the voice commands as you want and new functionalities can be added.
+
 ```python
 class VecRobot:
 
