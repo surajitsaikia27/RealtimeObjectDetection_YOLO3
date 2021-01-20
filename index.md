@@ -21,30 +21,29 @@ class VecRobot:
         self.model_classes = os.path.join(self.model_folder, "data_coco.txt")
         self.anchors_path = os.path.join(src_path, "keras_yolo3", "model_data", "yolo_anchors.txt")
 
-    def get_classnames(self, classes):
+    def get_classnames(self, classes):  # To get the names of the object detected
 
-    def vector_speaks(self, text):
+    def vector_speaks(self, text):  # Vector responds
       
-    def speech_regognizer(self, recognizer, microphone):
+    def speech_regognizer(self, recognizer, microphone):  # speech recognition for input voice commands
     
-    def obstacle_detection(self):
+    def obstacle_detection(self): # Detects obstacle using its IR data
         
-    def real_time_detection(self, param=None):
+    def real_time_detection(self, param=None):  # detects objects in real time
        
-    def display_image(self, file_name):
+    def display_image(self, file_name): # Display images in the screen of Vector
       
-    def robot_moves(self):
+    def robot_moves(self): # robot moves
       
-    def remote_control(self):
+    def remote_control(self): # The robot can be controlled using W, A, S and D keys
       
       
 ```
 ### Real time object detection by Vector
-Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector. _Please click the video to see vector in action.
+Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector. Please click the video to below see vector in action.
 
 
 [![Watch the video](vecpro.png)](https://photos.google.com/share/AF1QipNDbPjIsUP1174OF26lhOxsUd7yUxr0tVIPPFKvhLnCHaNtNf7vvPwlLxvxP2lLrQ/photo/AF1QipMWvWpF5sVfuHzksRIa7AHFrBY8c0Tb9LpYQOnF?key=em9tUXpEMHk1amZEV2hXMnhGNUdSay0yRldjZnh3)
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
