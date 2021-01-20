@@ -4,7 +4,7 @@ In this project, a home robot known as Vector is programmed to do a few tasks ba
 
 <img src="https://github.com/surajitsaikia27/Vector_robot_ObjectDetection/blob/master/vector.PNG" />
 
-<img src="selfdrive.gif" width="590" height="315" />
+<img src="vectordl.png" width="590" height="315" />
 ### What Vector can do?
 Vector is a home companion robot powered by AI and can do certain basic functions based on voice commands. It can take your photos, show you the weather, set timer, and many more. Also, since Vector comes with an SDK, one can program it to do more kinds of stuff than it normally does. So, in this project, I gave vector the capability of real-time object detection along with some more other functionalities.
 
