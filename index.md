@@ -39,25 +39,11 @@ class VecRobot:
       
 ```
 ### Real time object detection by Vector
-Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector.
+Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector. _Please click the video to see vector in action.
+
+
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://photos.google.com/share/AF1QipNDbPjIsUP1174OF26lhOxsUd7yUxr0tVIPPFKvhLnCHaNtNf7vvPwlLxvxP2lLrQ/photo/AF1QipMWvWpF5sVfuHzksRIa7AHFrBY8c0Tb9LpYQOnF?key=em9tUXpEMHk1amZEV2hXMnhGNUdSay0yRldjZnh3)
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](https://github.com/surajitsaikia27/Vector_robot_ObjectDetection/blob/master/vector.PNG)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
