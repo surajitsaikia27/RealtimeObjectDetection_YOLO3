@@ -1,11 +1,11 @@
 ## RoboVector
 
-In this project, a home robot known as Vector is programmed to do few tasks based on voiced commands. It is uses deep learning, computer vision and speech recognision, and is programmed using the Anki Vector SDK. The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation and etc. You can design your own programs to make this robot pet imbibed with AI capabilities. Here, in this project, I have trained and used an real time object detector which lets the robot to recognise objects in its surrounding environment. Moreover, in this module, instruction are provided how to create your own customize object detector. However, in case if you dont have a Vector, then using this repository you can create your own custom object detector which can be tested using webcam.
+In this project, a home robot known as Vector is programmed to do a few tasks based on voiced commands. It uses deep learning, computer vision and speech recognition, and is programmed using the Anki Vector SDK. The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation, etc. You can design your own programs to make this robot pet imbibed with AI capabilities. Here, in this project, I have trained and used a real-time object detector which lets the robot to recognise objects in its surrounding environment. Moreover, in this module, instruction is provided on how to create your own customize object detector. However, in case if you don't have a Vector, then using this repository you can create your own custom object detector which can be tested using a webcam.
 
 
 
 ### What Vector can do?
-Vector is home companion robot powered by AI and can do certain basic functions based on voice commands. It can take your photos, show you weather, set timer, and many more. Also, since Vector comes with a SDK, one can program it do more stuffs than it normally does. So, in this project I gave vector the capabilty of real-time object detection along with some more other functionalities.
+Vector is a home companion robot powered by AI and can do certain basic functions based on voice commands. It can take your photos, show you the weather, set timer, and many more. Also, since Vector comes with an SDK, one can program it to do more kinds of stuff than it normally does. So, in this project, I gave vector the capability of real-time object detection along with some more other functionalities.
 
 Following is the class blue print representing the functionalities of the vector.
 
@@ -38,7 +38,8 @@ class VecRobot:
       
       
 ```
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Real time object detection by Vector
+Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector.
 
 ```markdown
 Syntax highlighted code block
@@ -60,10 +61,3 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/surajitsaikia27/RoboVec/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
