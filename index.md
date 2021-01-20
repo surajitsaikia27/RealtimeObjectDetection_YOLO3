@@ -1,4 +1,5 @@
 ## RoboVector
+<img src="odr.gif" />
 
 In this project, a home robot known as Vector is programmed to do a few tasks based on voiced commands. It uses deep learning, computer vision and speech recognition, and is programmed using the Anki Vector SDK. The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation, etc. You can design your own programs to make this robot pet imbibed with AI capabilities. Here, in this project, I have trained and used a real-time object detector which lets the robot to recognise objects in its surrounding environment. Moreover, in this module, instruction is provided on how to create your own customize object detector. However, in case if you don't have a Vector, then using this repository you can create your own custom object detector which can be tested using a webcam.
 
