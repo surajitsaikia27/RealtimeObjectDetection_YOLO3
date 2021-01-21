@@ -46,5 +46,6 @@ Vector uses the YOLO network to recognize objects in real time. Also, details ar
 
 [![Watch the video](vecpro.png)](https://photos.google.com/share/AF1QipNDbPjIsUP1174OF26lhOxsUd7yUxr0tVIPPFKvhLnCHaNtNf7vvPwlLxvxP2lLrQ/photo/AF1QipMWvWpF5sVfuHzksRIa7AHFrBY8c0Tb9LpYQOnF?key=em9tUXpEMHk1amZEV2hXMnhGNUdSay0yRldjZnh3)
 
-
+### Real time object detection by the trained model
+<img src="paris.avi" />
 
