@@ -1,5 +1,5 @@
 # RoboVec:2.0
-
+<img src="vectordl.png" />
 In this project, a home robot known as Vector is programmed to do few tasks based on voiced commands. It is uses deep learning, computer vision and speech recognision, and is programmed using the Vector SDK. However, in case if you dont have a Vector, then using this repository you can create your own custom object detector which can be tested using webcam.
 
 The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation and etc. You can design your own programs to make this robot pet imbibed with AI capabilities. Here, in this project, I have trained and used an real time object detector which lets the robot to recognise objects in its surrounding environment. Moreover, in this module, instruction are provided how to create your own customize object detector. In case, if you want train our own object detector then follow the instructions below or else it can be skipped since the pre-trained model can be downloaded.
@@ -238,3 +238,12 @@ class VecRobot:
 
 
 ```
+
+### Real time object detection by Vector
+Vector uses the YOLO network to recognize objects in real time. Also, details are mentioned in this project how to create a customized object detector. Please click the video to below see vector in action.
+
+
+[![Watch the video](vecpro.png)](https://photos.google.com/share/AF1QipNDbPjIsUP1174OF26lhOxsUd7yUxr0tVIPPFKvhLnCHaNtNf7vvPwlLxvxP2lLrQ/photo/AF1QipMWvWpF5sVfuHzksRIa7AHFrBY8c0Tb9LpYQOnF?key=em9tUXpEMHk1amZEV2hXMnhGNUdSay0yRldjZnh3)
+
+### Real time object detection by the trained model
+<img src="rDOR.gif" />
